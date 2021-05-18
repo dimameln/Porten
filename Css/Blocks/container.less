@@ -1,0 +1,22 @@
+// main: ../style.less
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 1rem 0 1rem;
+    margin: 0 auto;
+    
+    
+    &--flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    @media @mobile {
+        &--flex {
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+    }
+}

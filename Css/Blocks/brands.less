@@ -1,0 +1,57 @@
+// main: ../style.less
+
+.wrapper-black {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+.brands {
+    background-color: #0F0F0F;
+    width: 100%;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.brands_title {
+    text-align: center;
+    padding-top: 120px;
+    
+    h1 {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 2.25rem;
+    }
+}
+
+.brands_border {
+    width: 120px;
+    margin: 40px auto 40px auto;
+    border-bottom: 1px solid white;
+}
+
+.brands_section {
+    padding-bottom: 75px;
+    
+    
+    img {
+        margin-right: 25px;
+        
+        
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    
+    
+    @media @tablet-ls {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        img {
+            width: 35%;
+            margin-right: 0;
+        }
+    }
+}

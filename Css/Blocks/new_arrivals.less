@@ -1,0 +1,57 @@
+// main: ../style.less
+
+.new_arrivals {
+    width: 100%;
+    height: auto;
+    
+    background-color: black;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.new_arrivals_title {
+    text-align: center;
+    padding-top: 120px;
+    
+    h1 {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 2.25rem;
+    }
+}
+
+.new_arrivals_border {
+    width: 120px;
+    margin: 40px auto 81px auto;
+    border-bottom: 1px solid white;
+}
+
+.new_arrivals_items {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    @media @tablet-ls {
+        justify-content: center;
+    }
+}
+
+.show-more {
+    color: white;
+    font-size: .875rem;
+    font-family: inherit;
+    text-align: center;
+    display: none;
+    
+    
+    @media @mobile {
+        display: inline;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+// compress: true
+
+
+/* Import */
+@import "vars";
+
+
+html {
+    font-size: 16px;
+    
+    overflow-x: hidden;
+}
+
+
+body {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;  
+    
+    overflow-x: hidden;
+
+    
+    
+    &.no-scroll{
+        overflow: hidden;
+    }
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Blocks */
+@import "Blocks/container";
+@import "Blocks/header";
+@import "Blocks/main_preview";
+@import "Blocks/main_collections";
+@import "Blocks/collection-2019";
+@import "Blocks/new_arrivals";
+@import "Blocks/brands";
+@import "Blocks/about";
+@import "Blocks/footer";
+@import "Blocks/modals";
